@@ -31,8 +31,6 @@ Pathik Parikh
 		<preference name="HideKeyboardFormAccessoryBar" value="false" />
 		<preference name="SuppressesIncrementalRendering" value="false" />
 		<preference name="android-minSdkVersion" value="7" />
-		<preference name="android-maxSdkVersion" value="19" />
-		<preference name="android-targetSdkVersion" value="16" />
 		<preference name="android-installLocation" value="internalOnly" />
 		<preference name="SplashScreenDelay" value="5000" />
 		<preference name="ErrorUrl" value=""/>
@@ -43,4 +41,22 @@ Pathik Parikh
 		<preference name="LoadUrlTimeoutValue" value="20000" />
 		<preference name="disable-cursor" value="false" />
 		<gap:platform name="android" />
+		<gap:plugin name="org.apache.cordova.battery-status"  />
+		<gap:plugin name="org.apache.cordova.camera"  />
+		<gap:plugin name="org.apache.cordova.console"  />
+		<gap:plugin name="org.apache.cordova.contacts"  />
+		<gap:plugin name="org.apache.cordova.device"  />
+		<gap:plugin name="org.apache.cordova.device-orientation"  />
+		<gap:plugin name="org.apache.cordova.device-motion"  />
+		<gap:plugin name="org.apache.cordova.dialogs"  />
+		<gap:plugin name="org.apache.cordova.file"  />
+		<gap:plugin name="org.apache.cordova.file-transfer"  />
+		<gap:plugin name="org.apache.cordova.geolocation"  />
+		<gap:plugin name="org.apache.cordova.globalization"  />
+		<gap:plugin name="org.apache.cordova.inappbrowser"  />
+		<gap:plugin name="org.apache.cordova.media"  />
+		<gap:plugin name="org.apache.cordova.media-capture"  />
+		<gap:plugin name="org.apache.cordova.network-information"  />
+		<gap:plugin name="org.apache.cordova.splashscreen"  />
+		<gap:plugin name="org.apache.cordova.vibration"  />
 	</widget>
